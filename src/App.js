@@ -1,12 +1,13 @@
-import logo from './logo.svg';
 import './App.css';
+import './Style/Section3.css';
+import Section3 from './components/Section3';
+import Foot from './components/Foot';
 
 function App() {
   return (
     <div className="App">
-        <h1 className="text-3xl font-bold underline">
-      Deepak Verma
-    </h1>
+      <Section3 />
+      <Foot />
     </div>
   );
 }
