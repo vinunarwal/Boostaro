@@ -1,13 +1,13 @@
 import logo from './logo.svg';
 import './App.css';
+import Section2 from './components/Section2';
+
 
 function App() {
   return (
-    <div className="App">
-        <h1 className="text-3xl font-bold underline">
-      Deepak Verma
-    </h1>
-    </div>
+    <>
+    <Section2/>
+    </>
   );
 }
 
