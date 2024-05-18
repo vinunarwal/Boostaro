@@ -41,22 +41,22 @@ function Guarantee() {
               3X GUARANTEE!
             </h2>
             <ul className="p-4">
-              <li className="flex mt-4">
+              <li className="flex mt-8">
                 <div className="flex-none bg-primary text-center font-black text-3xl text-white rounded-full w-14 h-14 leading-loose mr-3 text-customBgColorHSL">
-                  <span className="text-customBgColorHSL">1</span>
+                  <span>1</span>
                 </div>
                 <p className="text-customBgColorHSL">
                   <b className="text-customBgColorHSL">
                     180-DAY Money Back Guarantee
-                  </b>{" "}
+                  </b>
                   - 100% every penny, no questions asked,
                   <b>you can even keep the bottles</b> as our “thanks” for
                   giving FitSpresso a try.
                 </p>
               </li>
-              <li className="flex mt-4">
+              <li className="flex mt-8">
                 <div className="flex-none bg-primary text-center font-black text-3xl text-white rounded-full w-14 h-14 leading-loose mr-3 text-customBgColorHSL">
-                  <span className="text-customBgColorHSL">2</span>
+                  <span>2</span>
                 </div>
                 <p className="text-customBgColorHSL">
                   Doctor Guarantee - Use Fitspresso every day for 6 full months
@@ -65,9 +65,9 @@ function Guarantee() {
                   product of your choice! (6 bottle purchases only)
                 </p>
               </li>
-              <li className="flex mt-4">
+              <li className="flex mt-8">
                 <div className="flex-none bg-primary text-center font-black text-3xl text-white rounded-full w-14 h-14 leading-loose mr-3 text-customBgColorHSL">
-                  <span className="text-customBgColorHSL">3</span>
+                  <span>3</span>
                 </div>
                 <p className="text-customBgColorHSL">
                   <b>Give Back Guarantee</b> - With every order, even if it’s
@@ -78,7 +78,10 @@ function Guarantee() {
               </li>
             </ul>
           </div>
-          <div className="flex flex-wrap justify-center gap-4 px-5 md:gap-8 lg:gap-10 md:scale-90 lg:scale-95" style={{marginTop:"-30px"}}>
+          <div
+            className="flex flex-wrap justify-center gap-4 px-5 md:gap-8 lg:gap-10 md:scale-90 lg:scale-95"
+            // style={{ marginTop: "-30px" }}
+          >
             <div className="text-center">
               <img
                 className="w-full mx-auto max-w-[100px]"
