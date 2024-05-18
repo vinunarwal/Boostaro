@@ -44,7 +44,7 @@ const Section = () => {
   };
 
   const buttonClass =
-    "w-full flex justify-end py-2 mb-0 text-white text-lg";
+    "w-full flex justify-end py-2 mb-0  text-lg";
 
   return (
     <>
@@ -62,14 +62,16 @@ const Section = () => {
                 />
               </div>
               <div className="buttons ml-10 ">
-                <div
+              <div
                   className={`${buttonClass} ${
                     active === "Product" ? "bg-customBgColorHSL" : ""
                   }`}
                   onClick={() => handleClick("Product")}
                 >
                   <p
-                    className="text-lg text-white"
+                    className={`text-lg ${
+                      active === "Product" ? "text-white" : "text-customBgColorHSL"
+                    }`}
                     style={{ fontSize: "22px" }}
                   >
                     Product
@@ -78,13 +80,13 @@ const Section = () => {
                     xmlns="http://www.w3.org/2000/svg"
                     fill="none"
                     viewBox="0 0 24 24"
-                    stroke-width="1.5"
+                    strokeWidth="1.5"
                     stroke="currentColor"
-                    className="w-6 h-6 "
+                    className="w-6 h-6"
                   >
                     <path
-                      stroke-linecap="round"
-                      stroke-linejoin="round"
+                      strokeLinecap="round"
+                      strokeLinejoin="round"
                       d="m8.25 4.5 7.5 7.5-7.5 7.5"
                     />
                   </svg>
@@ -96,20 +98,25 @@ const Section = () => {
                   }`}
                   onClick={() => handleClick("Benefits")}
                 >
-                  <p className="text-lg" style={{ fontSize: "21px" }}>
+                  <p
+                    className={`text-lg ${
+                      active === "Benefits" ? "text-white" : "text-customBgColorHSL"
+                    }`}
+                    style={{ fontSize: "21px" }}
+                  >
                     Benefits
                   </p>
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
                     fill="none"
                     viewBox="0 0 24 24"
-                    stroke-width="1.5"
+                    strokeWidth="1.5"
                     stroke="currentColor"
-                    className="w-6 h-6 "
+                    className="w-6 h-6"
                   >
                     <path
-                      stroke-linecap="round"
-                      stroke-linejoin="round"
+                      strokeLinecap="round"
+                      strokeLinejoin="round"
                       d="m8.25 4.5 7.5 7.5-7.5 7.5"
                     />
                   </svg>
@@ -121,20 +128,25 @@ const Section = () => {
                   }`}
                   onClick={() => handleClick("Our Guarantee")}
                 >
-                  <p className="text-lg" style={{ fontSize: "21px" }}>
+                  <p
+                    className={`text-lg ${
+                      active === "Our Guarantee" ? "text-white" : "text-customBgColorHSL"
+                    }`}
+                    style={{ fontSize: "21px" }}
+                  >
                     Our Guarantee
                   </p>
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
                     fill="none"
                     viewBox="0 0 24 24"
-                    stroke-width="1.5"
+                    strokeWidth="1.5"
                     stroke="currentColor"
-                    className="w-6 h-6 "
+                    className="w-6 h-6"
                   >
                     <path
-                      stroke-linecap="round"
-                      stroke-linejoin="round"
+                      strokeLinecap="round"
+                      strokeLinejoin="round"
                       d="m8.25 4.5 7.5 7.5-7.5 7.5"
                     />
                   </svg>
@@ -146,20 +158,25 @@ const Section = () => {
                   }`}
                   onClick={() => handleClick("About FitSpresso")}
                 >
-                  <p className="text-lg" style={{ fontSize: "21px" }}>
+                  <p
+                    className={`text-lg ${
+                      active === "About FitSpresso" ? "text-white" : "text-customBgColorHSL"
+                    }`}
+                    style={{ fontSize: "21px" }}
+                  >
                     About FitSpresso
                   </p>
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
                     fill="none"
                     viewBox="0 0 24 24"
-                    stroke-width="1.5"
+                    strokeWidth="1.5"
                     stroke="currentColor"
-                    className="w-6 h-6 "
+                    className="w-6 h-6"
                   >
                     <path
-                      stroke-linecap="round"
-                      stroke-linejoin="round"
+                      strokeLinecap="round"
+                      strokeLinejoin="round"
                       d="m8.25 4.5 7.5 7.5-7.5 7.5"
                     />
                   </svg>
