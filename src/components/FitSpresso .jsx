@@ -3,8 +3,8 @@ import React from "react";
 function FitSpresso() {
   return (
     <div>
-      <div className="tab-content-item active">
-        <h2 className="text-3xl font-bold text-primary lg:text-4xl xl:text-5xl">
+      <div className="tab-content-item mt-3 ml-4 mb-8 mr-4 active">
+        <h2 className="text-3xl font-bold text-primary lg:text-xl xl:text-4xl text-customBgColorHSL">
           About FitSpresso and Healthy Fat Loss
         </h2>
         <div className="tab__line w-24 h-0.5 bg-orange-400 my-5 lg:w-32 xl:w-48"></div>

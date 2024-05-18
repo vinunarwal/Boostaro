@@ -3,14 +3,14 @@ import React from "react";
 function Benefits() {
   return (
     <div>
-      <div className="tab-content-item active">
-        <h2 className="tab__title text-4xl font-bold text-primary">
+      <div className="tab-content-item mt-3 ml-4 mb-8 mr-4 active">
+        <h2 className="tab__title text-4xl font-bold text-primary text-customBgColorHSL">
           What Benefits Can FitSpresso Give Me?
         </h2>
         <div className="tab__line h-0.5 w-20 bg-orange-400 my-3"></div>
         <div className="tab__body ">
           <div className="text-center">
-            <h4 className="mt-8 text-xl font-bold text-primary">
+            <h4 className="mt-8 text-xl font-bold text-primary text-customBgColorHSL">
               Supports Healthy Blood Sugar
             </h4>
             <div className="h-1 w-24 bg-orange-400 my-3 mx-auto"></div>
@@ -20,7 +20,7 @@ function Benefits() {
             </p>
           </div>
           <div className="text-center">
-            <h4 className="mt-8 text-xl font-bold text-primary">
+            <h4 className="mt-8 text-xl font-bold text-primary text-customBgColorHSL">
               Supports Healthy Energy Usage
             </h4>
             <div className="h-1 w-24 bg-orange-400 my-3 mx-auto"></div>
@@ -30,7 +30,7 @@ function Benefits() {
             </p>
           </div>
           <div className="text-center">
-            <h4 className="mt-8 text-xl font-bold text-primary">
+            <h4 className="mt-8 text-xl font-bold text-primary text-customBgColorHSL">
               Increases Energy Levels
             </h4>
             <div className="h-1 w-24 bg-orange-400 my-3 mx-auto"></div>
@@ -40,7 +40,7 @@ function Benefits() {
             </p>
           </div>
           <div className="text-center">
-            <h4 className="mt-8 text-xl font-bold text-primary">
+            <h4 className="mt-8 text-xl font-bold text-primary text-customBgColorHSL">
               Supports Fat Burning
             </h4>
             <div className="h-1 w-24 bg-orange-400 my-3 mx-auto"></div>
@@ -50,7 +50,7 @@ function Benefits() {
             </p>
           </div>
           <div className="text-center">
-            <h4 className="mt-8 text-xl font-bold text-primary">
+            <h4 className="mt-8 text-xl font-bold text-primary text-customBgColorHSL">
               Supports Healthy Digestion
             </h4>
             <div className="h-1 w-24 bg-orange-400 my-3 mx-auto"></div>
@@ -60,7 +60,7 @@ function Benefits() {
             </p>
           </div>
           <div className="text-center">
-            <h4 className="mt-8 text-xl font-bold text-primary">
+            <h4 className="mt-8 text-xl font-bold text-primary text-customBgColorHSL">
               Support Healthy Weight
             </h4>
             <div className="h-1 w-24 bg-orange-400 my-3 mx-auto"></div>
