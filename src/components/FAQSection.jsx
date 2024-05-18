@@ -158,8 +158,8 @@ const FAQSection = () => {
 
       <div className='bg-white pt-4 flexx'>
         <div className="productss productss2 bg-white">
-          <div className="border rounded-xl shadow-lg w-80 mb-6 ml-3">
-            <h3 className="text-center text-xl font-bold rounded-t-md bg-slate-400">BASIC</h3>
+          <div className="border rounded-xl shadow-lg w-80 mb-6 ml-3 gry">
+            <h3 className="text-center text-xl font-bold rounded-t-md bg-slate-400  text-white h-10">BASIC</h3>
             <div className="text-center text-lg mb-4">
               <div>1 bottle<div className="text-center text-gray-500 mb-2">30 Day Supply</div></div>
               <img src={bottle1} alt="" style={{ height: "290px" }} />
@@ -167,21 +167,21 @@ const FAQSection = () => {
             <div className="text-center text-2xl font-bold mb-2">
               <div className='text-6xl text-purple-500 ' style={{color:"#753363"}}><sup className='text-2xl'>$</sup>59 <span className='text-xl'>/ bottle</span></div>
             </div>
-            <div className="text-center text-gray-500 mb-4">+ $9.99 Shipping</div><br /><br /><br />
+            <div className="text-center text-gray-500 mb-4" style={{color:"#753363"}}>+ $9.99 Shipping</div><br /><br /><br />
             <div className='w-full flexx'>
-              <button className="bg-yellow-500 text-white w-3/4 py-2 rounded-lg font-bold h-14 text-2xl">Add To Cart <FontAwesomeIcon icon={faCartPlus} /></button>
+              <button className=" text-white w-3/4 py-2 rounded-lg font-bold h-14 text-2xl" style={{background:"linear-gradient(1turn, #ffb301, #ffde00)"}}>Add To Cart <FontAwesomeIcon icon={faCartPlus} /></button>
             </div>
-            <div className='w-full flexx overflow-hidden'>
+            <div className='w-full flexx overflow-hidden mt-2'>
               <img src={card1} alt="" className='qwe' />
               <img src={card2} alt="" className='qwe' />
               <img src={card3} alt="" className='qwe' />
               <img src={card4} alt="" className='qwe' />
             </div>
-            <div className="text-center text-lg text-gray-500 mt-2"><span><s>$128.99</s></span>$69.00</div>
+            <div className="text-center text-lg text-gray-500 mt-2" style={{color:"#753363"}}><span><s>$128.99</s></span>$69.00</div>
           </div>
 
-          <div className="border rounded-xl shadow-lg w-80 mb-6 bg-yellow-100">
-            <h3 className="text-center text-xl font-bold rounded-t-md text-white" style={{background:"#753363"}}>MOST POPULAR</h3>
+          <div className="border rounded-xl shadow-lg w-80 mb-6 prp" style={{background:"linear-gradient(180deg, #fffabe, #fff)"}}>
+            <h3 className="text-center text-xl font-bold rounded-t-md text-white h-10" style={{background:"#753363"}}>MOST POPULAR</h3>
             <div className="text-center text-lg mb-4">
               <div>6 bottles<div className="text-center text-gray-500 mb-2">180 Day Supply</div></div>
               <img src={bottle3} alt="" style={{ height: "290px" }} />
@@ -191,26 +191,26 @@ const FAQSection = () => {
             </div>
             <div className="text-center text-green-500 mb-2 flexx">
               <div>
-              <div className='w-full flexx text-nowrap pqr bg-red-500 text-white'><FontAwesomeIcon icon={faCheckCircle} className='mt-1'/>FREE Bonus Bottle!</div>
-              <div className='w-full flexx text-nowrap pqr bg-purple-700  text-white'><FontAwesomeIcon icon={faCheckCircle} className='mt-1'/>2 FREE Bonus Books</div>
-              <div className='w-full flexx text-nowrap pqr bg-green-600  text-white'><FontAwesomeIcon icon={faCheckCircle} className='mt-1'/>FREE Fast Shipping</div>
+              <div className='w-full flexx text-nowrap pqr  text-white' style={{background:"#cb5055"}}><FontAwesomeIcon icon={faCheckCircle} className='mt-1 mr-1'/><b>FREE Bonus Bottle!</b></div>
+              <div className='w-full flexx text-nowrap pqr bg-purple-700  text-white' style={{background:"hsl(316, 39%, 33%)"}}><FontAwesomeIcon icon={faCheckCircle} className='mt-1 mr-1'/><b>2 FREE Bonus Books</b></div>
+              <div className='w-full flexx text-nowrap pqr bg-green-600  text-white' style={{background:"#4c8c6f"}}><FontAwesomeIcon icon={faCheckCircle} className='mt-1 mr-1'/><b>FREE Fast Shipping</b></div>
               </div>
             </div>
             
             <div className='w-full flexx'>
               <button className="bg-yellow-500 text-white  w-3/4 py-2 rounded-lg font-bold h-14 text-2xl">Add To Cart <FontAwesomeIcon icon={faCartPlus} /></button>
             </div>
-            <div className='w-full flexx overflow-hidden'>
+            <div className='w-full flexx overflow-hidden mt-2'>
               <img src={card5} alt="" className='qwe' />
               <img src={card6} alt="" className='qwe' />
               <img src={card7} alt="" className='qwe' />
               <img src={card8} alt="" className='qwe' />
             </div>
-            <div className="text-center text-lg text-gray-500 mt-2"><span><s>$768.00</s></span>$234.00</div>
+            <div className="text-center text-lg text-gray-500 mt-2" style={{color:"#753363"}}><span><s>$768.00</s></span>$234.00</div>
           </div>
 
-          <div className="border rounded-xl shadow-lg w-80 mb-6">
-            <h3 className="text-center text-xl font-bold rounded-t-md bg-slate-400">BUNDLE</h3>
+          <div className="border rounded-xl shadow-lg w-80 mb-6 gry">
+            <h3 className="text-center text-xl font-bold rounded-t-md bg-slate-400 text-white h-10">BUNDLE</h3>
             <div className="text-center text-lg mb-4">
               <div>3 bottles<div className="text-center text-gray-500 mb-2">90 Day Supply</div></div>
               <img src={bottle2} alt="" style={{ height: "290px" }} />
@@ -229,20 +229,20 @@ const FAQSection = () => {
             <div className='w-full flexx'>
               <button className="bg-yellow-500 text-white  w-3/4 py-2 rounded-lg font-bold h-14 text-2xl">Add To Cart <FontAwesomeIcon icon={faCartPlus} /></button>
             </div>
-            <div className='w-full flexx overflow-hidden'>
+            <div className='w-full flexx overflow-hidden mt-2'>
               <img src={card1} alt="" className='qwe' />
               <img src={card2} alt="" className='qwe' />
               <img src={card3} alt="" className='qwe' />
               <img src={card4} alt="" className='qwe' />
             </div>
-            <div className="text-center text-lg text-gray-500 mt-2"><span><s>$384.00</s></span>$117.00</div>
+            <div className="text-center text-lg text-gray-500 mt-2" style={{color:"#753363"}}><span><s>$384.00</s></span>$117.00</div>
           </div>
         </div>
       </div>
 
       <div className="text-center pt-4 bg-white">
         <div className="text-2xl font-bold">Our Customers Say</div>
-        <div className="text-lg text-yellow-500">⭐⭐⭐⭐⭐ 4.9/5</div>
+        <div className="text-lg text-yellow-500">⭐⭐⭐⭐⭐<FontAwesomeIcon icon={faCheckCircle}/> 4.9/5</div>
         <div className="text-sm text-gray-500">Based on 72,500+ reviews!</div>
       </div>
     </div>
