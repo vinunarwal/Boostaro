@@ -1,0 +1,88 @@
+body {
+    font-family: Roboto, sans-serif;
+    font-size: 1rem;
+    line-height: 1.5rem;
+    margin: 0;
+}
+
+.product-info {
+    background: linear-gradient(180deg, hsl(316, 39%, 33%) 0%, #fff 100%);
+}
+
+.text-primary {
+    --tw-text-opacity: 1;
+    color: hsl(316 39% 33% / var(--tw-text-opacity));
+}
+
+.main-title {
+    font-size: 23px;
+    line-height: 1.1;
+}
+.offer-card__cta {
+    background: linear-gradient(180deg, #d20000 0, #ea0000 100%);
+    border: 1px solid #af0000;
+}
+.main-title-wrapper-bg {
+    background: linear-gradient(var(--color-primary) 40%, #fff 40%);
+}
+
+@media (min-width: 768px) {
+    .main-title-wrapper-bg {
+        background: #fcf2cc;
+    }
+}
+
+.solution {
+    container-type: inline-size;
+    container-name: solution;
+}
+.offer-card {
+    max-width: 290px;
+    min-width: 190px;
+    flex: 1 1 29%;
+}
+.offer-card__body {
+    background: linear-gradient(#fff 40%, hsl(316, 39%, 33%, .2));
+}
+.featured .offer-card__title {
+    background: var(--color-primary-dark);
+}
+.bg-primary {
+    --tw-bg-opacity: 1;
+    background-color: hsl(316 39% 33% / var(--tw-bg-opacity));
+}
+.featured .offer-card__body {
+    background: linear-gradient(#fff, #f8ffcd);
+}
+:root {
+    --color-primary: hsl(316, 39%, 33%);
+    --color-primary-dark: hsl(316, 39%, 25%);
+}
+
+.offer-card.featured>.offer-card__title:before {
+    background: url("https://tryfitspresso.org/l/lib/img/media/bs_badge-small.webp") 50% / cover no-repeat;
+}
+
+.offer-card.featured>.offer-card__title::before {
+    content: "";
+    display: block;
+    width: 53px;
+    height: 58px;
+    background: url("https://tryfitspresso.org/l/lib/img/media/bs_badge-small.webp") 50% / cover no-repeat;
+    position: absolute;
+    top: -3px;
+    left: -2px;
+    z-index: 1;
+}
+.fill-primary\/40 {
+    fill: hsl(316 39% 33% / .4);
+}
+.shadow-md {
+    --tw-shadow: 0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1);
+    --tw-shadow-colored: 0 4px 6px -1px var(--tw-shadow-color), 0 2px 4px -2px var(--tw-shadow-color);
+    box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
+}
+
+
+
+
