@@ -1,33 +1,18 @@
 import React from "react";
+import organicIngredients from '../images/organic-ingredients.svg';
+import noChemicals from '../images/no-chemicals.svg';
+import glutenFree from '../images/gluten-free.svg';
+import gmoFree from '../images/gmo-free.svg';
+import bpaFree from '../images/bpa-free.svg';
 
 const ProductFeatures = () => {
-  const features = [
-    {
-      src: "lib/img/media/icons/organic-ingredients.svg",
-      alt: "Organic Ingredients",
-      label: "Organic Ingredients",
-    },
-    {
-      src: "lib/img/media/icons/no-chemicals.svg",
-      alt: "No Added Chemicals",
-      label: "No Added Chemicals",
-    },
-    {
-      src: "lib/img/media/icons/gluten-free.svg",
-      alt: "Gluten Free",
-      label: "Gluten Free",
-    },
-    {
-      src: "lib/img/media/icons/gmo-free.svg",
-      alt: "GMO Free",
-      label: "GMO Free",
-    },
-    {
-      src: "lib/img/media/icons/bpa-free.svg",
-      alt: "BPA Free",
-      label: "BPA Free",
-    },
-  ];
+    const features = [
+        { src: organicIngredients, alt: 'Organic Ingredients', label: 'Organic Ingredients' },
+        { src: noChemicals, alt: 'No Added Chemicals', label: 'No Added Chemicals' },
+        { src: glutenFree, alt: 'Gluten Free', label: 'Gluten Free' },
+        { src: gmoFree, alt: 'GMO Free', label: 'GMO Free' },
+        { src: bpaFree, alt: 'BPA Free', label: 'BPA Free' }
+      ];
 
   return (
     <section className="product-is-features px-4 my-4 max-w-5xl mx-auto">
