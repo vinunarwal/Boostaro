@@ -33,10 +33,10 @@ const FAQSection = () => {
   };
 
   return (
-    <div className="w-full mb-4 overflow-hidden" style={{ background: "bg-black" }}>
+    <div className="w-full mb-4 overflow-hidden " style={{ background: "bg-black" }}>
       
       <div className="my-8 pb-10" style={{background:"#753363"}}>
-        <h2 className="text-center text-5xl font-bold mb-4 text-white">Frequently Asked Questions</h2>
+        <h2 className="text-center text-5xl pt-4 font-bold mb-4 text-white">Frequently Asked Questions</h2>
         <div className='flexx' style={{ width: "100vw", display: "flex" }}>
           <ul className="space-y-2 w-3/4">
             <li className="border-2 p-4 bg-white my-2 rounded-lg">
@@ -158,14 +158,14 @@ const FAQSection = () => {
 
       <div className='bg-white pt-4 flexx'>
         <div className="productss productss2 bg-white">
-          <div className="border rounded-xl shadow-lg w-80">
+          <div className="border rounded-xl shadow-lg w-80 mb-6 ml-3">
             <h3 className="text-center text-xl font-bold rounded-t-md bg-slate-400">BASIC</h3>
             <div className="text-center text-lg mb-4">
               <div>1 bottle<div className="text-center text-gray-500 mb-2">30 Day Supply</div></div>
               <img src={bottle1} alt="" style={{ height: "290px" }} />
             </div>
             <div className="text-center text-2xl font-bold mb-2">
-              <div className='text-6xl text-purple-500 '><sup className='text-2xl'>$</sup>59 <span className='text-xl'>/ bottle</span></div>
+              <div className='text-6xl text-purple-500 ' style={{color:"#753363"}}><sup className='text-2xl'>$</sup>59 <span className='text-xl'>/ bottle</span></div>
             </div>
             <div className="text-center text-gray-500 mb-4">+ $9.99 Shipping</div><br /><br /><br />
             <div className='w-full flexx'>
@@ -180,14 +180,14 @@ const FAQSection = () => {
             <div className="text-center text-lg text-gray-500 mt-2"><span><s>$128.99</s></span>$69.00</div>
           </div>
 
-          <div className="border rounded-xl shadow-lg w-80">
-            <h3 className="text-center text-xl font-bold rounded-t-md bg-slate-400 text-red-500">MOST POPULAR</h3>
+          <div className="border rounded-xl shadow-lg w-80 mb-6 bg-yellow-100">
+            <h3 className="text-center text-xl font-bold rounded-t-md text-white" style={{background:"#753363"}}>MOST POPULAR</h3>
             <div className="text-center text-lg mb-4">
               <div>6 bottles<div className="text-center text-gray-500 mb-2">180 Day Supply</div></div>
               <img src={bottle3} alt="" style={{ height: "290px" }} />
             </div>
             <div className="text-center text-2xl font-bold mb-2">
-              <div className='text-6xl text-purple-500 '><sup className='text-2xl'>$</sup>59 <span className='text-xl'>/ bottle</span></div>
+              <div className='text-6xl' style={{color:"#753363"}}><sup className='text-2xl'>$</sup>59 <span className='text-xl'>/ bottle</span></div>
             </div>
             <div className="text-center text-green-500 mb-2 flexx">
               <div>
@@ -209,14 +209,14 @@ const FAQSection = () => {
             <div className="text-center text-lg text-gray-500 mt-2"><span><s>$768.00</s></span>$234.00</div>
           </div>
 
-          <div className="border rounded-xl shadow-lg w-80">
+          <div className="border rounded-xl shadow-lg w-80 mb-6">
             <h3 className="text-center text-xl font-bold rounded-t-md bg-slate-400">BUNDLE</h3>
             <div className="text-center text-lg mb-4">
               <div>3 bottles<div className="text-center text-gray-500 mb-2">90 Day Supply</div></div>
               <img src={bottle2} alt="" style={{ height: "290px" }} />
             </div>
             <div className="text-center text-2xl font-bold mb-2">
-              <div className='text-6xl text-purple-500 '><sup className='text-2xl'>$</sup>59 <span className='text-xl'>/ bottle</span></div>
+              <div className='text-6xl ' style={{color:"#753363"}}><sup className='text-2xl'>$</sup>59 <span className='text-xl'>/ bottle</span></div>
             </div>
             <div className="text-center text-green-500 mb-2 flexx">
               <div>
