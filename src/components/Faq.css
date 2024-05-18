@@ -1,0 +1,35 @@
+.productss{
+    display: flex;
+    justify-content: center;
+    @media (max-width:768px) {
+        display: block;
+    }
+}
+
+.productss2 > :not([hidden]) ~ :not([hidden]) {
+        --tw-space-x-reverse: 0;
+        margin-right: calc(1rem/* 16px */ * var(--tw-space-x-reverse));
+        margin-left: calc(1rem/* 16px */ * calc(1 - var(--tw-space-x-reverse)));
+    }
+
+
+    .flexx{
+        display: flex;
+        justify-content: center;
+    }
+
+    .flxjsb{
+        display: flex;
+        justify-content: space-between;
+        color: #753363;
+    }
+
+    .qwe{
+        width: 40px;
+    }
+
+    .pqr{
+        border: 2px solid white;
+        border-radius: 5px;
+        padding: 2px 30px;
+    }
