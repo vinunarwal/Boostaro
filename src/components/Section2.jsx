@@ -70,7 +70,7 @@ const Section = () => {
                 >
                   <p
                     className="text-lg text-white"
-                    style={{ fontSize: "25px" }}
+                    style={{ fontSize: "22px" }}
                   >
                     Product
                   </p>
@@ -96,7 +96,7 @@ const Section = () => {
                   }`}
                   onClick={() => handleClick("Benefits")}
                 >
-                  <p className="text-lg" style={{ fontSize: "25px" }}>
+                  <p className="text-lg" style={{ fontSize: "21px" }}>
                     Benefits
                   </p>
                   <svg
@@ -121,7 +121,7 @@ const Section = () => {
                   }`}
                   onClick={() => handleClick("Our Guarantee")}
                 >
-                  <p className="text-lg" style={{ fontSize: "25px" }}>
+                  <p className="text-lg" style={{ fontSize: "21px" }}>
                     Our Guarantee
                   </p>
                   <svg
@@ -146,7 +146,7 @@ const Section = () => {
                   }`}
                   onClick={() => handleClick("About FitSpresso")}
                 >
-                  <p className="text-lg" style={{ fontSize: "25px" }}>
+                  <p className="text-lg" style={{ fontSize: "21px" }}>
                     About FitSpresso
                   </p>
                   <svg
