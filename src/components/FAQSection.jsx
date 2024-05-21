@@ -33,10 +33,10 @@ const FAQSection = () => {
   };
 
   return (
-    <div className="w-full mb-4 overflow-hidden" style={{ background: "bg-black" }}>
+    <div className="w-full mb-4 overflow-hidden " style={{ background: "bg-black" }}>
       
       <div className="my-8 pb-10" style={{background:"#753363"}}>
-        <h2 className="text-center text-5xl font-bold mb-4 text-white">Frequently Asked Questions</h2>
+        <h2 className="text-center text-5xl pt-4 font-bold mb-4 text-white">Frequently Asked Questions</h2>
         <div className='flexx' style={{ width: "100vw", display: "flex" }}>
           <ul className="space-y-2 w-3/4">
             <li className="border-2 p-4 bg-white my-2 rounded-lg">
@@ -158,7 +158,7 @@ const FAQSection = () => {
 
       <div className='bg-white pt-4 flexx'>
         <div className="productss productss2 bg-white">
-          <div className="border rounded-xl shadow-lg w-80 mb-6">
+          <div className="border rounded-xl shadow-lg w-80 mb-6 ml-3">
             <h3 className="text-center text-xl font-bold rounded-t-md bg-slate-400">BASIC</h3>
             <div className="text-center text-lg mb-4">
               <div>1 bottle<div className="text-center text-gray-500 mb-2">30 Day Supply</div></div>
